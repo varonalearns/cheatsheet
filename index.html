@@ -3,65 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>HTML Picture Reference</h1>
-    <table>
-        <caption>
-            Picture Tag
-        </caption>
-        <thead>
-            <tr>
-                <th>Tag</th>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>&lt;picture&gt;</td>
-                <td>Picture</td>
-                <td>
-                    The picture HTML element contains zero or more &lt;source&gt; elements and one &lt;img&gt; element to offer alternative versions of an image for different display/device scenarios.
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table>
-        <caption>
-            Picture Attributes
-        </caption>
-        <thead>
-            <tr>
-                <th>Attribute</th>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>media</td>
-                <td>Media</td>
-                <td>
-                    The media attribute specifies a media condition (similar to a media query) that the user agent will evaluate for each &lt;source&gt;  element.
-                </td>
-            </tr>
-            <tr>
-                <td>srcset</td>
-                <td>Sourceset</td>
-                <td>
-                    The srcset attribute is used to offer a list of possible images based on size or the display's pixel density.
-                </td>
-            </tr>
-            <tr>
-                <td>type</td>
-                <td>Type</td>
-                <td>
-                    The type attribute specifies a MIME type for the resource URL(s) in the &lt;source&gt; element's srcset attribute. If the user agent does not support the given type, the &lt;source&gt; element is skipped.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <main>
+        <h1>HTML Picture Reference</h1>
+        <table>
+            <caption>
+                Picture Tag
+            </caption>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;picture&gt;</span></td>
+                    <td>Picture</td>
+                    <td>
+                        The picture HTML element contains zero or more &lt;source&gt; elements and one &lt;img&gt; element to offer alternative versions of an image for different display/device scenarios.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <caption>
+                Picture Attributes
+            </caption>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">media</span></td>
+                    <td>Media</td>
+                    <td>
+                        The media attribute specifies a media condition (similar to a media query) that the user agent will evaluate for each &lt;source&gt;  element.
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="code">srcset</span></td>
+                    <td>Sourceset</td>
+                    <td>
+                        The srcset attribute is used to offer a list of possible images based on size or the display's pixel density.
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="code">type</span></td>
+                    <td>Type</td>
+                    <td>
+                        The type attribute specifies a MIME type for the resource URL(s) in the &lt;source&gt; element's srcset attribute. If the user agent does not support the given type, the &lt;source&gt; element is skipped.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 </body>
 </html>

@@ -11,11 +11,13 @@ This is my solution to the Challenge Project: Build your own cheatsheet that can
 4. The site should use custom styles for any code such as HTML tags or CSS properties or values (like font-family). Represent code using a monospace font family and a different background color.
 
 ### Built with
+- Semantic HTML
+- CSS3
 
 ### What I learned
+With this project, I learned how to stylize a table. At first, I wasn't sure how to approach this challenge, partly because I have not worked extensively with tables before. So this was a fun and interesting challenge.
 
 ### Continued development
 
 ## Author
 - Website - [Evalia Varona](https://www.evaliavarona.com)
-- Hashnode - [@evavarona](https://evaliavarona.hashnode.dev)
